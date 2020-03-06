@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_restplus import Resource, Api
 import time
+from functools import cached_property
 
 app = Flask(__name__)
 api = Api(app)
