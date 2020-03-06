@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_restplus import Resource, Api
+from flask_restx import Resource, Api
 import time
 from functools import cached_property
 
