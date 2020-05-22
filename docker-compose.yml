@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+  pong:
+    build: ./pong
+    ports:
+      #- "6000-6010:6000" 
+      - "6000"  
+  ping:
+    build: ./ping
+    ports:
+      - "5000"
+    depends_on:
+      - pong 
