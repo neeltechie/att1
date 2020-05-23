@@ -1,0 +1,11 @@
+openapi: "3.0.2"
+info:
+    title: My Book Store
+    version: "1.0"
+paths:
+    /books:
+        get:
+            responses:
+                "200":
+                    description: OK
+            operationId: app.bookget
